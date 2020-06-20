@@ -1,0 +1,122 @@
+/* NavBar Styling */
+.inline-block{
+    background-color:#7ECFB2;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navUl li{
+    display: inline-block;
+    padding: 10px;
+    background-color: #B0EFEF;
+    border: 1px solid #00A6B0;
+    border-radius: 4px;
+}
+.navigation{
+    display: flex;
+}
+.logo{
+    height:auto;
+    background-color:#7ECFB2;
+    padding-left: 20px;
+}
+
+.logo img{
+    width: 40%;
+    padding: 1%;
+    text-align: center;
+}
+nav{
+    width: 73%;
+    padding: 1%;
+}
+.navUl{
+    width: 50%;
+    margin-left: auto;
+    list-style: none;
+}
+/* End of NavBar Styling*/
+
+h1{
+    padding-left: 10%;
+    font-size: 230%;
+}
+.allThree{
+    padding-left: 10%;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 25% 25%;
+    grid-template-areas:
+    "topDivGrid"
+    "midDivGrid"
+    "bottomDivGrid";
+}
+.topDiv{
+    grid-area: topDivGrid; 
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 150% 150%;
+    grid-gap: 50px;
+    grid-template-areas:
+    "budImageGrid budHeadTextButtGrid";
+}
+.midDiv{
+    grid-area: midDivGrid;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 150% 150%;
+    grid-gap: 50px;
+    grid-template-areas:
+    "washImageGrid washHeadTextButtGrid";
+}
+.bottomDiv{
+    grid-area: bottomDivGrid;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 150% 150%;
+    grid-gap: 50px;
+    grid-template-areas:
+    "roseImageGrid roseHeadTextButtGrid";
+}
+.budImage img{
+    width: 100%;
+    grid-area: budImageGrid;
+}
+.budHeadTextButt{
+    grid-area: budHeadTextButtGrid;
+}
+.washImage img{
+    width: 100%;
+    grid-area: washImageGrid;
+}
+.washHeadTextButt{
+    grid-area: washHeadTextButtGrid;
+}
+.roseImage img{
+    width: 100%;
+    grid-area: roseImageGrid;
+}
+.roseHeadTextButt{
+    grid-area: roseHeadTextButtGrid;
+}
+button{
+    background-color:#00A6B0;
+    border: 2px solid black;
+}
+/* Footer Styling  */
+.footer{
+    background-color: #7ECFB2 ;
+    padding: 25px;
+}
+.footerCont{
+    display: inline-block;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icons{
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* End of Footer Styling */
