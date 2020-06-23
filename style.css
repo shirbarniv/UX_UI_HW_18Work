@@ -120,3 +120,17 @@ button{
     font-family: Arial, Helvetica, sans-serif;
 }
 /* End of Footer Styling */
+
+/* Mobile Media Query Begins */
+@media only screen and (max-width: 600){
+    .allThree{
+        grid-template-rows: 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "topDivGrid"
+            "midDivGrid"
+            "bottomDivGrid"; 
+        background-color: red;
+    }
+}
+/* Mobile Media Query Ends */
